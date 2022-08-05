@@ -19,6 +19,6 @@ from akototech_home import views
 
 
 urlpatterns = [
-    # path("", views.home, name="home"),
+    path("", views.landing_page, name="landing_page"),
     path("admin/", admin.site.urls),
 ]
